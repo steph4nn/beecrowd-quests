@@ -1,8 +1,8 @@
 while True:
-    saida = ''
     n = int(input())
     if n == 0:
         break
+    saida = ''
     vetor = list(map(int, input().split()))
     vetorConjunto = set(vetor)
     listaaux = list(vetorConjunto)
